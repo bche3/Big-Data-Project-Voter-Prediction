@@ -9,7 +9,7 @@
 ![contributors](https://img.shields.io/github/contributors/pragyy/datascience-readme-template) 
 ![codesize](https://img.shields.io/github/languages/code-size/pragyy/datascience-readme-template) 
 
-![img](https://github.com/pragyy/datascience-readme-template/blob/main/Headerheader.jpg)
+![img]([https://github.com/pragyy/datascience-readme-template/blob/main/Headerheader.jpg](https://github.com/bche3/Swinging-The-Vote/blob/main/img/README-thumbnail.jpg))
 
 ## Project Overview
 
