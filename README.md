@@ -26,8 +26,7 @@ Steps
 - **Python Version:** 
 
 ## Python Packages Used
-
-- **General Purpose:** General purpose packages like `urllib, os, request`, and many more.
+<!-- - **General Purpose:** General purpose packages like `urllib, os, request`, and many more. -->
 - **Data Manipulation:** Pandas, Numpy, PySpark
 - **Data Visualization:** Seaborn, Matplotlib
 - **Machine Learning:** PySpark
