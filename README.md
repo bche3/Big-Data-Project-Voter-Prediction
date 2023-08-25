@@ -13,7 +13,7 @@
 ![codesize](https://img.shields.io/github/languages/code-size/pragyy/datascience-readme-template) 
 -->
 
-![img](https://github.com/bche3/Swinging-The-Vote/blob/main/img/thumbnail.jpg)
+![img](https://github.com/bche3/Swinging-The-Vote/blob/main/img/project-thumbnail.jpg)
 
 ## Project Overview
 
