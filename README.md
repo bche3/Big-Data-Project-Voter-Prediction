@@ -1,7 +1,6 @@
 ![img](https://github.com/pragyy/datascience-readme-template/blob/main/Headerheader.jpg)
 
-# Swinging-The-Vote: Predicting Voter Turnout in Swing States
-
+# Swinging The Vote: 
 
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/pragyy/datascience-readme-template?include_prereleases)
 ![GitHub last commit](https://img.shields.io/github/last-commit/pragyy/datascience-readme-template)
@@ -10,18 +9,13 @@
 ![contributors](https://img.shields.io/github/contributors/pragyy/datascience-readme-template) 
 ![codesize](https://img.shields.io/github/languages/code-size/pragyy/datascience-readme-template) 
 
-> A guide to writing an amazing readme for your data science project.
-
-The project title should be concise and self-explanatory so that the user can easily remember your project.
-
-Add a cover banner to the top of your Readme to catch the attention of your readers.
-I usually include images that are relevant to my project, and you can easily find any image for free online without worrying about copyright issues. However, if the work is not free, make sure to credit the proper owners in the references/acknowledgement section.
-
-The colorful tiles beneath the title are known as badges, and they improve readability by providing quick insights into the github repository. I use [Shields IO](https://shields.io/). Depending on the project you can use the ones that are relevant. 
+> Predicting Voter Turnout in Swing States.
 
 # Project Overview
 
-In this section you should provide a brief overview of the project, what it is about, and what it aims to achieve. This will help readers quickly understand what the project is all about.
+Predicted voter turnout in swing states using a logistical regression model. I built data pipelines to predict voter turnout by using Google Cloud Platform (Cloud Storage, DataProc, PySpark) for 27,000,000+ General 2020 state election data. I featurized using string indexers, one-hot encoders, and assemblers on logistic regression model to achieve consistent training AUC score of 70% and a peak test AUC of 73% in predicting turnout for five states.
+
+Python (Libaries: PySpark, Pandas, Numpy, Seaborn), GCP (Cloud Storage, BigQuery, DataProc)
 
 # Installation and Setup
 
