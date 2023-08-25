@@ -15,32 +15,24 @@
 
 Predicted voter turnout in swing states using a logistical regression model. I built data pipelines to predict voter turnout by using Google Cloud Platform (Cloud Storage, DataProc, PySpark) for 27,000,000+ General 2020 state election data. I featurized using string indexers, one-hot encoders, and assemblers on logistic regression model to achieve consistent training AUC score of 70% and a peak test AUC of 73% in predicting turnout for five states.
 
-Python (Libaries: PySpark, Pandas, Numpy, Seaborn), GCP (Cloud Storage, BigQuery, DataProc)
+> Python (Libaries: PySpark, Pandas, Numpy, Seaborn), GCP (Cloud Storage, BigQuery, DataProc)
 
 ## Installation and Setup
 
-In this section, provide detailed instructions on how to set up the project on a local machine. This includes any necessary dependencies, software requirements, and installation steps. Make sure to include clear and concise instructions so that others can easily replicate your setup.
-
-I like to structure it as below - 
+Steps
+ 
 ## Codes and Resources Used
-In this section I give user the necessary information about the software requirements.
-- **Editor Used:**  Informing the user of the editor used to produce the project.
-- **Python Version:** Informing the user of the version of python used for this project. If you are using some other language such as R, you can mention that as well.
+- **Editor Used:**  Jupyter Notebook (GCP DataProc Web Interface)
+- **Python Version:** 
 
 ## Python Packages Used
-In this section, I include all the necessary dependencies needed to reproduce the project, so that the reader can install them before replicating the project. I categorize the long list of packages used as - 
-- **General Purpose:** General purpose packages like `urllib, os, request`, and many more.
-- **Data Manipulation:** Packages used for handling and importing dataset such as `pandas, numpy` and others.
-- **Data Visualization:** Include packages which were used to plot graphs in the analysis or for understanding the ML modelling such as `seaborn, matplotlib` and others.
-- **Machine Learning:** This includes packages that were used to generate the ML model such as `scikit, tensorflow`, etc.
 
-The level of granularity you want to provide for the above list is entirely up to you. You can also add a few more levels, such as those for statistical analysis or data preparation, or you can simply incorporate them into the above list as is.
+- **General Purpose:** General purpose packages like `urllib, os, request`, and many more.
+- **Data Manipulation:** Pandas, Numpy, PySpark
+- **Data Visualization:** Seaborn, Matplotlib
+- **Machine Learning:** PySpark
 
 ## Data
-
-The very crucial part of any data science project is dataset. Therefore list all the data sources used in the project, including links to the original data, descriptions of the data, and any pre-processing steps that were taken.
-
-I structure this as follows - 
 
 ### Source Data
 In this section, I list all of the data that was used, along with the source link and a few lines that describe each data. You can also explain each of the data attributes in greater detail if you wish.
@@ -86,8 +78,3 @@ Acknowledge any contributors, data sources, or other relevant parties who have c
 
 For instance, I am referencing the image that I used for my readme header - 
 - Image by [rashadashurov](https://www.vectorstock.com/royalty-free-vector/data-science-cartoon-template-with-flat-elements-vector-27984292)
-
-# License
-Specify the license under which your code is released. Moreover, provide the licenses associated with the dataset you are using. This is important for others to know if they want to use or contribute to your project. 
-
-For this github repository, the License used is [MIT License](https://opensource.org/license/mit/).
