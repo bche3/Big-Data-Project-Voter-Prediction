@@ -21,10 +21,10 @@ Predicted voter turnout in swing states using a logistical regression model. I b
 - **Editor Used:**  Jupyter Notebook (GCP DataProc Web Interface)
 - **Python Version:**
 - **Packages Used:**
-<!-- - **General Purpose:** General purpose packages like `urllib, os, request`, and many more. -->
   - **Data Manipulation:** Pandas, Numpy, PySpark
   - **Data Visualization:** Seaborn, Matplotlib
   - **Machine Learning:** PySpark
+<!-- - **General Purpose:** General purpose packages like `urllib, os, request`, and many more. -->
 
 
 ## Data
