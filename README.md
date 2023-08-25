@@ -17,19 +17,15 @@ Predicted voter turnout in swing states using a logistical regression model. I b
 
 > Python (Libaries: PySpark, Pandas, Numpy, Seaborn), GCP (Cloud Storage, BigQuery, DataProc)
 
-## Installation and Setup
-
-Steps
- 
-## Codes and Resources Used
+## Setup Used
 - **Editor Used:**  Jupyter Notebook (GCP DataProc Web Interface)
-- **Python Version:** 
-
-## Python Packages Used
+- **Python Version:**
+- **Packages Used:**
 <!-- - **General Purpose:** General purpose packages like `urllib, os, request`, and many more. -->
-- **Data Manipulation:** Pandas, Numpy, PySpark
-- **Data Visualization:** Seaborn, Matplotlib
-- **Machine Learning:** PySpark
+  - **Data Manipulation:** Pandas, Numpy, PySpark
+  - **Data Visualization:** Seaborn, Matplotlib
+  - **Machine Learning:** PySpark
+
 
 ## Data
 
