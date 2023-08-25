@@ -2,6 +2,8 @@
 
 # Swinging The Vote
 
+> Python (PySpark, Pandas, Numpy, Seaborn), GCP (Cloud Storage, BigQuery, DataProc), Logistic Regression
+
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/pragyy/datascience-readme-template?include_prereleases)
 ![GitHub last commit](https://img.shields.io/github/last-commit/pragyy/datascience-readme-template)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/pragyy/datascience-readme-template)
@@ -15,7 +17,7 @@
 
 Predicted voter turnout in swing states using a logistical regression model. I built data pipelines to predict voter turnout by using Google Cloud Platform (Cloud Storage, DataProc, PySpark) for 27,000,000+ General 2020 state election data. I featurized using string indexers, one-hot encoders, and assemblers on logistic regression model to achieve consistent training AUC score of 70% and a peak test AUC of 73% in predicting turnout for five states.
 
-> Python (Libaries: PySpark, Pandas, Numpy, Seaborn), GCP (Cloud Storage, BigQuery, DataProc)
+
 
 ## Setup Used
 - **Editor Used:**  Jupyter Notebook (GCP DataProc Web Interface)
