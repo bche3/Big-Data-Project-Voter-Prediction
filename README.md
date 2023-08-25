@@ -1,4 +1,4 @@
-![img](https://github.com/pragyy/datascience-readme-template/blob/main/Headerheader.jpg)
+
 
 # Swinging The Vote
 
@@ -9,7 +9,7 @@
 ![contributors](https://img.shields.io/github/contributors/pragyy/datascience-readme-template) 
 ![codesize](https://img.shields.io/github/languages/code-size/pragyy/datascience-readme-template) 
 
-> Predicting Voter Turnout in Swing States.
+![img](https://github.com/pragyy/datascience-readme-template/blob/main/Headerheader.jpg)
 
 ## Project Overview
 
