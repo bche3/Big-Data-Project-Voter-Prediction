@@ -18,7 +18,7 @@
 Predicted voter turnout in swing states using a logistical regression model. I built data pipelines to predict voter turnout by using Google Cloud Platform (Cloud Storage, DataProc, PySpark) for 27,000,000+ General 2020 state election data. I featurized using string indexers, one-hot encoders, and assemblers on logistic regression model to achieve consistent training AUC score of 70% and a peak test AUC of 73% in predicting turnout for five states.
 
 
-## Setup Used
+## Technology/Setup
 - **Editor Used:**  Jupyter Notebook (GCP DataProc Web Interface)
 - **Python Version:** 3.10.10
 - **Packages Used:**
@@ -39,7 +39,7 @@ Data collection is not always as simple as downloading from Kaggle or any open s
 ### Data Preprocessing
 Acquired data is not always squeaky clean, so preprocessing them are an integral part of any data analysis. In this section you can talk about the same.
 
-## Results and evaluation
+## Results and Evaluation
 Provide an overview of the results of your project, including any relevant metrics and graphs. Include explanations of any evaluation methodologies and how they were used to assess the quality of the model. You can also make it appealing by including any pictures of your analysis or visualizations.
 
 ## Future work
