@@ -31,7 +31,7 @@ Predicted voter turnout in swing states using a logistical regression model. I b
 ## Data
 
 ### Source Data
-In this section, I list all of the data that was used, along with the source link and a few lines that describe each data. You can also explain each of the data attributes in greater detail if you wish.
+726 variables, lines of code
 
 ### Data Acquisition
 Data collection is not always as simple as downloading from Kaggle or any open source website; it can also be gathered through API calls or online scraping. So you can elaborate on this step in this section so that the reader can obtain the dataset by following your instructions.
