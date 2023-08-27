@@ -15,23 +15,7 @@
 
 ## Project Overview
 
-The project's focus was on the prediction of voter turnout in swing states using for General 2020 state election data consisting of 27,000,000+ observations through. logistical regression model. Using PySpark, I built data pipelines to predict voter turnout through I  a logistic regression model, achieving a consistent training AUC score of 70% and a peak test AUC of 73% in predicting turnout for five states. After initializing the SparkSession and reading in the Parquet data from a GCS path, I converted the PySpark dataframe into a Pandas dataframe to perform Exploratory Data Analysis (EDA) conducted to visualize distributions and explore correlations to extract insights into the relationships between various variables and data preprocessing to ensure the dataset was suitable for analysis, featurizing using string indexers, one-hot encoders, and assemblers.
-
-Transitioning to model building, I chose to employ a Logistic Regression approach, focusing on the 'General_2020' response variable for binary classification. The objective was to predict, based on the label column, whether a voter participated (Y=1) or refrained from voting (Y=0) in the 2020 Primary Election. The selected predictor variables encompassed a range of demographic factors including age, gender, education level, ethnicity, dwelling type, median housing value, and estimated household income. The analysis was performed individually for each of the five selected swing states (Florida, Arizona, nevada, Mchigan).
-
-From the model results, we saw that the training and testing AUC scores consistently hovered around 70% across all states , peaking at  73.54% for the Arizona dataset. These AUC scores indicated the models' capability to effectively predict voter turnout based on the provided features yet how specific predictor variables exhibited distinct impacts on voter behavior depending on the state as the analysis yielded several pivotal findings:
-
-- *Age and Gender*: Voter age and gender demonstrated limited influence on voter turnout across the swing states. Therefore, allocating substantial campaign focus on these variables might yield minimal impact.
-
-- *Property Ownership*: The influence of property ownership on voter behavior manifested differently across states. Notably, Michigan displayed the most pronounced difference in voting patterns based on dwelling type, while other states showcased comparatively less variation.
-
-- *Education*: Education level emerged as a significant factor in Florida and Arizona, implying that tailored campaigns targeting educated voters could be impactful in these states. However, the influence of education was less pronounced in Nevada and Michigan.
-
-- *Income and Wealth*: Metrics derived from the analysis indicated that neither median housing value nor estimated household income significantly affected voter turnout in any of the four states. Hence, crafting campaign strategies based on these factors might yield marginal benefits.
-
-In summary, the project's meticulous analysis, encompassing data preprocessing, exploratory data analysis, model building, and the interpretation of key metrics, provided nuanced insights into the intricate interplay between socioeconomic factors and voter behavior within swing states during the 2020 General Election.
-
-
+The project's focus was on the prediction of voter turnout in swing states using for General 2020 state election data consisting of 27,000,000+ observations through. logistical regression model. Using PySpark, I built data pipelines to predict voter turnout through I  a logistic regression model, achieving a consistent training AUC score of 70% and a peak test AUC of 73% in predicting turnout for five states. After initializing the SparkSession and reading in the Parquet data from a GCS path, I converted the PySpark dataframe into a Pandas dataframe to perform Exploratory Data Analysis (EDA) conducted to visualize distributions and explore correlations to extract insights into the relationships between various variables and data preprocessing to ensure the dataset was suitable for analysis, featurizing using string indexers, one-hot encoders, and assemblers. Transitioning to model building, I chose to employ a Logistic Regression approach, focusing on the 'General_2020' response variable for binary classification. The objective was to predict, based on the label column, whether a voter participated (Y=1) or refrained from voting (Y=0) in the 2020 Primary Election. The selected predictor variables encompassed a range of demographic factors including age, gender, education level, ethnicity, dwelling type, median housing value, and estimated household income. The analysis was performed individually for each of the five selected swing states (Arizona, Florida, Michigan, Nevada, Texas). In summary, the project's meticulous analysis, encompassing data preprocessing, exploratory data analysis, model building, and the interpretation of key metrics, provided nuanced insights into the intricate interplay between socioeconomic factors and voter behavior within swing states during the 2020 General Election.
 
 
 ## Installation and Setup
@@ -57,6 +41,17 @@ Acquired data is not always squeaky clean, so preprocessing them are an integral
 
 ## Results and Evaluation
 Provide an overview of the results of your project, including any relevant metrics and graphs. Include explanations of any evaluation methodologies and how they were used to assess the quality of the model. You can also make it appealing by including any pictures of your analysis or visualizations.
+
+From the model results, we saw that the training and testing AUC scores consistently hovered around 70% across all states , peaking at  73.54% for the Arizona dataset. These AUC scores indicated the models' capability to effectively predict voter turnout based on the provided features yet how specific predictor variables exhibited distinct impacts on voter behavior depending on the state as the analysis yielded several pivotal findings:
+
+- *Age and Gender*: Voter age and gender demonstrated limited influence on voter turnout across the swing states. Therefore, allocating substantial campaign focus on these variables might yield minimal impact.
+
+- *Property Ownership*: The influence of property ownership on voter behavior manifested differently across states. Notably, Michigan displayed the most pronounced difference in voting patterns based on dwelling type, while other states showcased comparatively less variation.
+
+- *Education*: Education level emerged as a significant factor in Florida and Arizona, implying that tailored campaigns targeting educated voters could be impactful in these states. However, the influence of education was less pronounced in Nevada and Michigan.
+
+- *Income and Wealth*: Metrics derived from the analysis indicated that neither median housing value nor estimated household income significantly affected voter turnout in any of the four states. Hence, crafting campaign strategies based on these factors might yield marginal benefits.
+
 
 ## Future work
 Outline potential future work that can be done to extend the project or improve its functionality. This will help others understand the scope of your project and identify areas where they can contribute.
