@@ -31,11 +31,11 @@ The project's focus was on the prediction of voter turnout in selected swing sta
 ## Data
 
 ### Source Data
-*U.S. General Election and Primary Election Data from 2012 to 2020 consisting of 726 variables (voter registration, participation, and demographic data) stored as Parquet files stored in Google Cloud Storage bucket
-*For this project, U.S. 2020 General Election for Arizona, Florida, Michigan, Nevada, and Texas were selected, totally +27,000,00 observations 
+* U.S. General Election and Primary Election Data from 2012 to 2020 consisting of 726 variables (voter registration, participation, and demographic data) stored as Parquet files stored in Google Cloud Storage bucket
+* For this project, U.S. 2020 General Election for Arizona, Florida, Michigan, Nevada, and Texas were selected, totally +27,000,00 observations 
 
 ### Data Acquisition
-*T
+* T
 
 ### Data Preprocessing
 * T
