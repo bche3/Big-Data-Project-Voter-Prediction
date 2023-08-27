@@ -15,7 +15,21 @@
 
 ## Project Overview
 
-Predicted voter turnout in swing states using a logistical regression model. I built data pipelines to predict voter turnout by using Google Cloud Platform (Cloud Storage, DataProc, PySpark) for 27,000,000+ General 2020 state election data. I featurized using string indexers, one-hot encoders, and assemblers on logistic regression model to achieve consistent training AUC score of 70% and a peak test AUC of 73% in predicting turnout for five states.
+     The project's focus was on the prediction of voter turnout in swing states using for General 2020 state election data consisting of 27,000,000+ observations through. logistical regression model. I built data pipelines to predict voter turnout by using Google Cloud Platform (Cloud Storage, DataProc, PySpark). I  on logistic regression model to achieve consistent training AUC score of 70% and a peak test AUC of 73% in predicting turnout for five states. I began with thorough data preprocessing to ensure the dataset was suitable for analysis in which the process consisted of featurizing using string indexers, one-hot encoders, and assemblers along with Exploratory Data Analysis (EDA) conducted to visualize distributions, explore correlations, and conduct statistical tests to extract insights into the relationships between various variables. 
+     Moving on to model building, the team opted for a Logistic Regression approach. The focal point was the "General_2020" response variable, utilized as the label column to predict whether a voter turned out (Y=1) or abstained from voting (Y=0) in the 2020 Primary Election. The selected predictor variables encompassed a range of demographic factors including age, gender, education level, ethnicity, dwelling type, median housing value, and estimated household income. The analysis was performed individually for each of the five selected swing states (Florida, Arizona, nevada, Mchigan).
+     The project's outcomes highlighted compelling metrics from the model results, underscoring the predictive power of the Logistic Regression models. Across all states, the training and testing AUC scores consistently hovered around 70%, peaking at  73.54% for the Arizona dataset. These AUC scores indicated the models' capability to effectively predict voter turnout based on the provided features. However, specific predictor variables exhibited distinct impacts on voter behavior depending on the state as the analysis yielded several pivotal findings:
+
+- Age and Gender: Voter age and gender demonstrated limited influence on voter turnout across the swing states. Therefore, allocating substantial campaign focus on these variables might yield minimal impact.
+
+- Property Ownership: The influence of property ownership on voter behavior manifested differently across states. Notably, Michigan displayed the most pronounced difference in voting patterns based on dwelling type, while other states showcased comparatively less variation.
+
+- Education: Education level emerged as a significant factor in Florida and Arizona, implying that tailored campaigns targeting educated voters could be impactful in these states. However, the influence of education was less pronounced in Nevada and Michigan.
+
+- Income and Wealth: Metrics derived from the analysis indicated that neither median housing value nor estimated household income significantly affected voter turnout in any of the four states. Hence, crafting campaign strategies based on these factors might yield marginal benefits.
+
+     In summary, the project's meticulous analysis, encompassing data preprocessing, exploratory data analysis, model building, and the interpretation of key metrics, provided nuanced insights into the intricate interplay between socioeconomic factors and voter behavior within swing states during the 2020 Primary Election.
+
+
 
 
 ## Installation and Setup
@@ -46,10 +60,9 @@ Provide an overview of the results of your project, including any relevant metri
 Outline potential future work that can be done to extend the project or improve its functionality. This will help others understand the scope of your project and identify areas where they can contribute.
 
 ## Acknowledgments/References
-Acknowledge any contributors, data sources, or other relevant parties who have contributed to the project. This is an excellent way to show your appreciation for those who have helped you along the way.
-
-For instance, I am referencing the image that I used for my readme header - 
-- Image by [rashadashurov](https://www.vectorstock.com/royalty-free-vector/data-science-cartoon-template-with-flat-elements-vector-27984292)
+- Matthew Balderrama
+- Bernie Graves
+- Brandelyn Nie
 
 <!--
 ## Code structure
