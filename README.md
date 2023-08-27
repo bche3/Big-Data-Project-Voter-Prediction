@@ -72,7 +72,7 @@ Presented are a few visualizations for each state from the EDA to familiarize ou
 
 From our sample, we can see that most voters turned out to be those whose income falls in the category of 'middle-class' This makes sense since the majority of adults in American make up the middle-class in terms of income.
 
-
+  
 *Florida Age Boxplot (by Brandelyn Nie)*
 
 Within the state of Florida, we observe that the median age of voters of the Republican and Reform party are higher than the other parties, being around the age of 60 years old while the median age of Democratic party for example is just under 55 years old.
