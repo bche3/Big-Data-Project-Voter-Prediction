@@ -19,7 +19,7 @@ Predicted voter turnout in swing states using a logistical regression model. I b
 
 
 ## Installation and Setup
-- **Editor Used:**  Jupyter Notebook (GCP DataProc Web Interface)
+- **Technologies:**  Python, Jupyter Notebook (GCP DataProc Web Interface), Google Cloud Platform (Cloud Storage, BigQuery)
 - **Python Version:** 3.10.10
 - **Packages Used:**
   - **Data Manipulation:** Pandas, Numpy, PySpark
