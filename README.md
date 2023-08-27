@@ -15,8 +15,7 @@
 
 ## Project Overview
 
-Our objective for this project is to determine how aspects of individual voters’ socioeconomic status (SES), consisting of their income, education, financial security, accessibility to resources, and the like, influence how they decide to vote in the general or primary elections. It’s notable that societal influences and their living conditions, especially when living in certain politicized areas, may have a heavy effect on voter turnout for elections taking place so we’ve decided to explore any existing patterns from the state data provided. The datasets we chose to work with are states that are classified as “swing states,” meaning any state that could reasonably be won by either the Democratic or Republican candidate in a statewide election.
-
+In exploration of how voters’ socioeconomic status (SES), consisting of their income, education, financial security, accessibility to resources, and the like, influence voter participation in the general or primary elections, we decided to explore existing patterns from the past state data as it's notable that societal influences and living conditions, especially when living in certain politicized areas, may have a heavy effect on voter turnout for elections taking place. Specifically, we chose states classified as “swing states,” due to their historical propensity for alternating between major political parties, being closely contested battlegrounds where shifts in turnout and voting patterns could potentially determine the overall election outcome.
 Thus, our *main question* and *secondary question* is:
 - How does socioeconomic background (education, income, ethnicity, etc ) affect voter turnout?
   
@@ -40,7 +39,6 @@ The project's focus was on the prediction of voter turnout in our selected swing
 ### Source Data
 - U.S. General Election and Primary Election Data from 2012 to 2020 consisting of 726 variables (voter registration, participation, and demographic data) stored as Parquet files stored in Google Cloud Storage bucket
 - For this project, U.S. 2020 General Election for Arizona, Florida, Michigan, Nevada, and Texas were selected, totaling +27,000,00 observations altogether
-  - These 4 states were chosen due to their historical propensity for alternating between major political parties, being closely contested battlegrounds where shifts in turnout and voting patterns could potentially determine the overall election outcome.
 
 ### Data Acquisition
 - As the data was stored as Parquet files in a GCS Bucket, we create a single-node DataProc cluster using the Google Cloud SDK command-line tool
