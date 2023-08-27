@@ -68,10 +68,8 @@ Presented are a few visualizations for each state from the EDA to familiarize ou
 
 
 *Arizona Household Income Countplot (by Matthew Balderrama)*
-
-From our sample, we can see that most voters turned out to be those whose income falls in the category of 'middle-class' This makes sense since the majority of adults in American make up the middle-class in terms of income.
-
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/az-HHincome-countplot.png)
+From our sample, we can see that most voters turned out to be those whose income falls in the category of 'middle-class' This makes sense since the majority of adults in American make up the middle-class in terms of income.
 
 *Florida Age Boxplot (by Brandelyn Nie)*
 
