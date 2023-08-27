@@ -84,20 +84,21 @@ From the model results, we saw that both the training and testing AUC scores con
 
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/auc-scores.png)
 
-
+Florida — Ranked Coefficients
 
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/fl-ranking.png)
 
+Michigan — Ranked Coefficients
 
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/mi-ranking.png)
 
+Nevada — Ranked Coefficients 
 
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/nv-ranking.png)
 
+Arizona — Ranked Coeffients
 
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/az-ranking.png)
-
-
 
 
 ## Future Work
