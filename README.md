@@ -46,10 +46,10 @@ Our variables of focus:
 - `Voters_Gender` — Gender of individual voter (M, F)
 - `Parties_Description` — Political parties active in the state (Democratic, Republican, Non-Partisan, ...)
 - `Ethnic_Description` — Ethnicity of individual voter ()
-- `CommercialData_Education` — Categorical likelihood scale of voter level of education from HS Diploma to Graduate Degree
+- `CommercialData_Education` — Categorical likelihood scale of level of education from HS Diploma to Graduate Degree
 - `CommercialData_DwellingType` — Dwelling type of individual voter (Single-family, Multi-family)
 - `CommercialData_AreaMedianHousingValue` — Median housing value from individual voter's area
-- `CommercialData_AreaMedianEducationYears` — Median education years from individual voter's area (0, 3, 10, 11, ...)
+- `CommercialData_AreaMedianEducationYears` — Median education years from individual voter's area (0, 3, 10, ...)
 - `CommercialData_EstimatedHHIncomeAmount` — Estimated household income amount of individual voter
 
 ## Results and Evaluation
