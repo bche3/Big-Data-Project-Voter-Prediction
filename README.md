@@ -16,7 +16,8 @@
 ## Project Overview
 
 In exploration of how voters’ socioeconomic status (SES), consisting of their income, education, financial security, accessibility to resources, and the like, influence voter participation in the general or primary elections, we decided to explore existing patterns from the past state data as it's notable that societal influences and living conditions, especially when living in certain politicized areas, may have a heavy effect on voter turnout for elections taking place. Specifically, we chose states classified as “swing states,” due to their historical propensity for alternating between major political parties, being closely contested battlegrounds where shifts in turnout and voting patterns could potentially determine the overall election outcome.
-Thus, our *main question* and *secondary question* is:
+
+Thus, our *main question* and *secondary question* was
 - How does socioeconomic background (education, income, ethnicity, etc ) affect voter turnout?
   
   - How does property (household/land) ownership, education level, and age/gender individually affect voter turnouts or patterns?
