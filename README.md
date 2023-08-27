@@ -21,15 +21,15 @@ Moving on to model building, the team opted for a Logistic Regression approach. 
 
 The project's outcomes highlighted compelling metrics from the model results, underscoring the predictive power of the Logistic Regression models. Across all states, the training and testing AUC scores consistently hovered around 70%, peaking at  73.54% for the Arizona dataset. These AUC scores indicated the models' capability to effectively predict voter turnout based on the provided features. However, specific predictor variables exhibited distinct impacts on voter behavior depending on the state as the analysis yielded several pivotal findings:
 
-- Age and Gender: Voter age and gender demonstrated limited influence on voter turnout across the swing states. Therefore, allocating substantial campaign focus on these variables might yield minimal impact.
+- *Age and Gender*: Voter age and gender demonstrated limited influence on voter turnout across the swing states. Therefore, allocating substantial campaign focus on these variables might yield minimal impact.
 
-- Property Ownership: The influence of property ownership on voter behavior manifested differently across states. Notably, Michigan displayed the most pronounced difference in voting patterns based on dwelling type, while other states showcased comparatively less variation.
+- *Property Ownership*: The influence of property ownership on voter behavior manifested differently across states. Notably, Michigan displayed the most pronounced difference in voting patterns based on dwelling type, while other states showcased comparatively less variation.
 
-- Education: Education level emerged as a significant factor in Florida and Arizona, implying that tailored campaigns targeting educated voters could be impactful in these states. However, the influence of education was less pronounced in Nevada and Michigan.
+- *Education*: Education level emerged as a significant factor in Florida and Arizona, implying that tailored campaigns targeting educated voters could be impactful in these states. However, the influence of education was less pronounced in Nevada and Michigan.
 
-- Income and Wealth: Metrics derived from the analysis indicated that neither median housing value nor estimated household income significantly affected voter turnout in any of the four states. Hence, crafting campaign strategies based on these factors might yield marginal benefits.
+- *Income and Wealth*: Metrics derived from the analysis indicated that neither median housing value nor estimated household income significantly affected voter turnout in any of the four states. Hence, crafting campaign strategies based on these factors might yield marginal benefits.
 
-In summary, the project's meticulous analysis, encompassing data preprocessing, exploratory data analysis, model building, and the interpretation of key metrics, provided nuanced insights into the intricate interplay between socioeconomic factors and voter behavior within swing states during the 2020 Primary Election.
+In summary, the project's meticulous analysis, encompassing data preprocessing, exploratory data analysis, model building, and the interpretation of key metrics, provided nuanced insights into the intricate interplay between socioeconomic factors and voter behavior within swing states during the 2020 General Election.
 
 
 
