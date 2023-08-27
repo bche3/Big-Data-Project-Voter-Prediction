@@ -17,7 +17,7 @@
 
 Our objective for this project is to determine how aspects of individual voters’ socioeconomic status (SES), consisting of their income, education, financial security, accessibility to resources, and the like, influence how they decide to vote in the general or primary elections. It’s notable that societal influences and their living conditions, especially when living in certain politicized areas, may have a heavy effect on voter turnout for elections taking place so we’ve decided to explore any existing patterns from the state data provided. The datasets we chose to work with are states that are classified as “swing states,” meaning any state that could reasonably be won by either the Democratic or Republican candidate in a statewide election.
 
-Thus, our *main question* and *secondary questions* are:
+Thus, our *main question* and *secondary question* is:
 - How does socioeconomic background (education, income, ethnicity, etc ) affect voter turnout?
   
   - How does property (household/land) ownership, education level, and age/gender individually affect voter turnouts or patterns?
@@ -65,7 +65,10 @@ Our variables of focus:
 - `CommercialData_EstimatedHHIncomeAmount` — Estimated household income amount of individual voter
 
 ## Results and Evaluation
-From the model results, we saw that both the training and testing AUC scores consistently hovered around *72%* across all states while the training and test AUCpeaked at *73.37%* and *73.54%* respectively for the Arizona dataset. These AUC scores indicated the models' capability to effectively predict voter turnout based on the provided features and gives me a under understanding of how specific predictor variables  impacts voter behavior depending on the state as yielded through several pivotal findings. Certain aspects of socioeconomic status play larger roles than others depending on the state, while some of them are the same throughout. The importance of type of property ownership plays out differently in each swing state, as explained earlier. The different levels of education are very highly ranked coefficients in Florida, while not in the other three states considered. So when campaigning in Florida, parties should make sure to appeal to those who have been educated. On the other hand, in Arizona, Michigan, and Nevada ethnic group coefficients are the highest ranked, and more emphasis should be placed here during campaigns. Factors such as voter age, voter gender, and income/wealth do not contribute much to the logistic models for each state, so campaigns do not need to focus more on these variables, and should instead look towards other aspects of socioeconomic status.
+From the model results, we saw that both the training and testing AUC scores consistently hovered around *72%* across all states while the training and test AUCpeaked at *73.37%* and *73.54%* respectively for the Arizona dataset. 
+
+These AUC scores indicated the models' capability to effectively predict voter turnout based on the provided features and gives me a under understanding of how specific predictor variables  impacts voter behavior depending on the state as yielded through several pivotal findings. Certain aspects of socioeconomic status play larger roles than others depending on the state, while some of them are the same throughout. 
+
 
 ## Future work
 Outline potential future work that can be done to extend the project or improve its functionality. This will help others understand the scope of your project and identify areas where they can contribute.
