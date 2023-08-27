@@ -64,22 +64,43 @@ Our variables of focus:
 - `CommercialData_EstimatedHHIncomeAmount` — Estimated household income amount of individual voter
 
 ## Results and Evaluation
-From the model results, we saw that both the training and testing AUC scores consistently hovered around *72%* across all states while the training and test AUCpeaked at *73.37%* and *73.54%* respectively for the Arizona dataset. 
+Arizona Household Income Countplot (by Matthew Balderrama)
 
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/az-HHincome-countplot.png)
+
+Florida Age Boxplot (by Brandelyn Nie)
+
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/fl-age-boxplot.png)
+
+Michigan Land Sq Boxplot (By Bernie Graves)
+
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/mi-land-boxplot.png)
+
+Nevada Education Barplot
+
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/edu-barplot.png)
+
+From the model results, we saw that both the training and testing AUC scores consistently hovered around *72%* across all states while the training and test AUCpeaked at *73.37%* and *73.54%* respectively for the Arizona dataset. These AUC scores indicated the models' capability to effectively predict voter turnout based on the provided features and gives me a under understanding of how specific predictor variables  impacts voter behavior depending on the state as yielded through several pivotal findings. Certain aspects of socioeconomic status play larger roles than others depending on the state, while some of them are the same throughout. 
+
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/auc-scores.png)
+
+
+
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/fl-ranking.png)
+
+
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/mi-ranking.png)
+
+
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/nv-ranking.png)
+
+
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/az-ranking.png)
 
-These AUC scores indicated the models' capability to effectively predict voter turnout based on the provided features and gives me a under understanding of how specific predictor variables  impacts voter behavior depending on the state as yielded through several pivotal findings. Certain aspects of socioeconomic status play larger roles than others depending on the state, while some of them are the same throughout. 
 
 
-## Future work
+
+## Future Work
 Outline potential future work that can be done to extend the project or improve its functionality. This will help others understand the scope of your project and identify areas where they can contribute.
 
 ## Acknowledgments/References
