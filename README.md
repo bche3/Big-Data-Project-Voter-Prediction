@@ -31,8 +31,8 @@ The project's focus was on the prediction of voter turnout in selected swing sta
 ## Data
 
 ### Source Data
-- U.S. General Election and Primary Election Data from 2012 to 2020 consisting of 726 variables (voter registration, participation, and demographic data) stored as Parquet files stored in Google Cloud Storage bucket\
-- For this project, U.S. 2020 General Election for Arizona, Florida, Michigan, Nevada, and Texas were selected, totally +27,000,00 observations 
+- U.S. General Election and Primary Election Data from 2012 to 2020 consisting of 726 variables (voter registration, participation, and demographic data) stored as Parquet files stored in Google Cloud Storage bucket
+- For this project, U.S. 2020 General Election for Arizona, Florida, Michigan, Nevada, and Texas were selected, totaling +27,000,00 observations altogether
 
 ### Data Acquisition
 - T
@@ -45,13 +45,8 @@ Provide an overview of the results of your project, including any relevant metri
 
 From the model results, we saw that the training and testing AUC scores consistently hovered around 70% across all states , peaking at  73.54% for the Arizona dataset. These AUC scores indicated the models' capability to effectively predict voter turnout based on the provided features yet how specific predictor variables exhibited distinct impacts on voter behavior depending on the state as the analysis yielded several pivotal findings:
 
-- *Age and Gender*: Voter age and gender demonstrated limited influence on voter turnout across the swing states. Therefore, allocating substantial campaign focus on these variables might yield minimal impact.
-
-- *Property Ownership*: The influence of property ownership on voter behavior manifested differently across states. Notably, Michigan displayed the most pronounced difference in voting patterns based on dwelling type, while other states showcased comparatively less variation.
-
-- *Education*: Education level emerged as a significant factor in Florida and Arizona, implying that tailored campaigns targeting educated voters could be impactful in these states. However, the influence of education was less pronounced in Nevada and Michigan.
-
-- *Income and Wealth*: Metrics derived from the analysis indicated that neither median housing value nor estimated household income significantly affected voter turnout in any of the four states. Hence, crafting campaign strategies based on these factors might yield marginal benefits.
+1. Test
+2. Test
 
 
 ## Future work
