@@ -15,11 +15,11 @@
 
 ## Project Overview
 
-The project's focus was on the prediction of voter turnout in selected swing states ((Arizona, Florida, Michigan, Nevada, Texas) using for General 2020 state election data consisting of 27,000,000+ observations through. logistical regression model. Using PySpark, I built data pipelines to predict voter turnout through I  a logistic regression model, achieving a consistent training AUC score of 70% and a peak test AUC of 73% in predicting turnout for five states. After initializing the SparkSession and reading in the Parquet data from a GCS path, I converted the PySpark dataframe into a Pandas dataframe to perform Exploratory Data Analysis (EDA) conducted to visualize distributions and explore correlations to extract insights into the relationships between various variables and data preprocessing to ensure the dataset was suitable for analysis, featurizing using string indexers, one-hot encoders, and assemblers. Transitioning to model building, I chose to employ a Logistic Regression approach, focusing on the 'General_2020' response variable for binary classification. The objective was to predict, based on the label column, whether a voter participated (Y=1) or refrained from voting (Y=0) in the 2020 Primary Election. The selected predictor variables encompassed a range of demographic factors including age, gender, education level, ethnicity, dwelling type, median housing value, and estimated household income. In summary, the project's meticulous analysis, encompassing data preprocessing, exploratory data analysis, model building, and the interpretation of key metrics, provided nuanced insights into the intricate interplay between socioeconomic factors and voter behavior within swing states during the 2020 General Election.
+The project's focus was on the prediction of voter turnout in selected swing states (Arizona, Florida, Michigan, Nevada, Texas) using for General 2020 state election data consisting of 27,000,000+ observations through. logistical regression model. My contributions consisted of building the data pipelines using PySpark to predict voter turnout through a logistic regression model, achieving a consistent training AUC score of 70% and a peak test AUC of 73% in predicting turnout for five states. Performing ETL through initialization with a SparkSession and reading in the Parquet data from a GCS path, I converted the PySpark dataframe into a Pandas dataframe to perform Exploratory Data Analysis (EDA) conducted to visualize distributions and explore correlations to extract insights into the relationships between various variables and data preprocessing to ensure the dataset was suitable for analysis, featurizing using string indexers, one-hot encoders, and assemblers. Transitioning to model building, I chose to employ a Logistic Regression approach, focusing on the 'General_2020' response variable for binary classification. The objective was to predict, based on the label column, whether a voter participated (Y=1) or refrained from voting (Y=0) in the 2020 Primary Election. The selected predictor variables encompassed a range of demographic factors including age, gender, education level, ethnicity, dwelling type, median housing value, and estimated household income. In summary, the project's meticulous analysis, encompassing data preprocessing, exploratory data analysis, model building, and the interpretation of key metrics, provided nuanced insights into the intricate interplay between socioeconomic factors and voter behavior within swing states during the 2020 General Election.
 
 
 ## Installation and Setup
-- **Technologies:**  Python, Jupyter Notebook (GCP DataProc Web Interface), Google Cloud Platform (Cloud Storage, BigQuery)
+- **Technologies:**  Python, Jupyter Notebook (GCP DataProc Web Interface), Google Cloud Platform (DataProc, Cloud Storage, BigQuery)
 - **Python Version:** 3.10.10
 - **Packages Used:**
   - **Data Manipulation:** Pandas, Numpy, PySpark
@@ -31,13 +31,14 @@ The project's focus was on the prediction of voter turnout in selected swing sta
 ## Data
 
 ### Source Data
-726 variables, lines of code
+*U.S. General Election and Primary Election Data from 2012 to 2020 consisting of 726 variables (voter registration, participation, and demographic data) stored as Parquet files stored in Google Cloud Storage bucket
+*For this project, U.S. 2020 General Election for Arizona, Florida, Michigan, Nevada, and Texas were selected, totally +27,000,00 observations 
 
 ### Data Acquisition
-Data collection is not always as simple as downloading from Kaggle or any open source website; it can also be gathered through API calls or online scraping. So you can elaborate on this step in this section so that the reader can obtain the dataset by following your instructions.
+*T
 
 ### Data Preprocessing
-Acquired data is not always squeaky clean, so preprocessing them are an integral part of any data analysis. In this section you can talk about the same.
+* T
 
 ## Results and Evaluation
 Provide an overview of the results of your project, including any relevant metrics and graphs. Include explanations of any evaluation methodologies and how they were used to assess the quality of the model. You can also make it appealing by including any pictures of your analysis or visualizations.
