@@ -15,7 +15,7 @@
 
 ## Project Overview
 
-The project's focus was on the prediction of voter turnout in selected swing states (Arizona, Florida, Michigan, Nevada, Texas) using for General 2020 state election data consisting of 27,000,000+ observations through. logistical regression model. My contributions consisted of building the data pipelines using PySpark to predict voter turnout through a logistic regression model, achieving a consistent training AUC score of 70% and a peak test AUC of 73% in predicting turnout for five states. Performing ETL through initialization with a SparkSession and reading in the Parquet data from a GCS path, I converted the PySpark dataframe into a Pandas dataframe to perform Exploratory Data Analysis (EDA) conducted to visualize distributions and explore correlations to extract insights into the relationships between various variables and data preprocessing to ensure the dataset was suitable for analysis, featurizing using string indexers, one-hot encoders, and assemblers. Transitioning to model building, I chose to employ a Logistic Regression approach, focusing on the 'General_2020' response variable for binary classification. The objective was to predict, based on the label column, whether a voter participated (Y=1) or refrained from voting (Y=0) in the 2020 Primary Election. The selected predictor variables encompassed a range of demographic factors including age, gender, education level, ethnicity, dwelling type, median housing value, and estimated household income. In summary, the project's meticulous analysis, encompassing data preprocessing, exploratory data analysis, model building, and the interpretation of key metrics, provided nuanced insights into the intricate interplay between socioeconomic factors and voter behavior within swing states during the 2020 General Election.
+The project's focus was on the prediction of voter turnout in selected swing states (Arizona, Florida, Michigan, Nevada) using for General 2020 state election data consisting of 27,000,000+ observations through. logistical regression model. My contributions consisted of building the data pipelines using PySpark to predict voter turnout through a logistic regression model, achieving a consistent training AUC score of 70% and a peak test AUC of 73% in predicting turnout for four states. Performing ETL through initialization with a SparkSession and reading in the Parquet data from a GCS path, I converted the PySpark dataframe into a Pandas dataframe to perform Exploratory Data Analysis (EDA) conducted to visualize distributions and explore correlations to extract insights into the relationships between various variables and data preprocessing to ensure the dataset was suitable for analysis, featurizing using string indexers, one-hot encoders, and assemblers. Transitioning to model building, I chose to employ a Logistic Regression approach, focusing on the 'General_2020' response variable for binary classification. The objective was to predict, based on the label column, whether a voter participated (Y=1) or refrained from voting (Y=0) in the 2020 Primary Election. The selected predictor variables encompassed a range of demographic factors including age, gender, education level, ethnicity, dwelling type, median housing value, and estimated household income. In summary, the project's meticulous analysis, encompassing data preprocessing, exploratory data analysis, model building, and the interpretation of key metrics, provided nuanced insights into the intricate interplay between socioeconomic factors and voter behavior within swing states during the 2020 General Election.
 
 
 ## Installation and Setup
@@ -38,14 +38,26 @@ The project's focus was on the prediction of voter turnout in selected swing sta
 - T
 
 ### Data Preprocessing
-- T
+
+Our variables of focus:
+
+- `General_2020` — The response variable (label column) determining voter turnout by Y as 1 and null as 0
+- `Voters_Age` — Age of individual voter
+- `Voters_Gender` — Gender of individual voter (M, F)
+- `Parties_Description` — Political parties active in the state (Democratic, Republican, Non-Partisan, ...)
+- `Ethnic_Description` — Ethnicity of individual voter ()
+- `CommercialData_Education` — Categorical likelihood scale of voter level of education from HS Diploma to Graduate Degree
+- `CommercialData_DwellingType` — Dwelling type of individual voter (Single-family, Multi-family)
+- `CommercialData_AreaMedianHousingValue` — Median housing value from individual voter's area
+- `CommercialData_AreaMedianEducationYears` — Median education years from individual voter's area (0, 3, 10, 11, ...)
+- `CommercialData_EstimatedHHIncomeAmount` — Estimated household income amount of individual voter
 
 ## Results and Evaluation
 Provide an overview of the results of your project, including any relevant metrics and graphs. Include explanations of any evaluation methodologies and how they were used to assess the quality of the model. You can also make it appealing by including any pictures of your analysis or visualizations.
 
 From the model results, we saw that the training and testing AUC scores consistently hovered around 70% across all states , peaking at  73.54% for the Arizona dataset. These AUC scores indicated the models' capability to effectively predict voter turnout based on the provided features yet how specific predictor variables exhibited distinct impacts on voter behavior depending on the state as the analysis yielded several pivotal findings:
 
-1. Test
+1. Test`
 2. Test
 
 
@@ -53,9 +65,9 @@ From the model results, we saw that the training and testing AUC scores consiste
 Outline potential future work that can be done to extend the project or improve its functionality. This will help others understand the scope of your project and identify areas where they can contribute.
 
 ## Acknowledgments/References
-- Matthew Balderrama
-- Bernie Graves
-- Brandelyn Nie
+- Matthew Balderrama —  Arizona EDA & Model Interpretation/Conclusion
+- Bernie Graves      —  Michigan EDA & Model Interpretation/Conclusion
+- Brandelyn Nie      —  Florida EDA & Model Interpretation/Conclusion
 
 <!--
 ## Code structure
