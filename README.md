@@ -69,7 +69,7 @@ From the model results, we saw that both the training and testing AUC scores con
 
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/az-HHincome-countplot.png)
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/fl-age-boxplot.png)
-![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/mi-land-barplot.png)
+![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/mi-land-boxplot.png)
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/edu-barplot.png)
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/auc-scores.png)
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/fl-ranking.png)
