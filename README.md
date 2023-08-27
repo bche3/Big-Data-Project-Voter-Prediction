@@ -71,28 +71,25 @@ Presented are a few visualizations for each state from the EDA to familiarize ou
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/az-HHincome-countplot.png)
 
 From our sample, we can see that most voters turned out to be those whose income falls in the category of 'middle-class' This makes sense since the majority of adults in American make up the middle-class in terms of income.
-  
-
-  
+<br/><br/> 
+<br/><br/> 
 *Florida Age Boxplot (by Brandelyn Nie)*
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/fl-age-boxplot.png)
 
 Within the state of Florida, we observe that the median age of voters of the Republican and Reform party are higher than the other parties, being around the age of 60 years old while the median age of Democratic party for example is just under 55 years old.
-  
-  
-  
+<br/><br/>   
+<br/><br/> 
 *Michigan Land Sq Boxplot (By Bernie Graves)*
-
-This initial plot is telling us that Republicans tend to have more land in the State of Michigan.
-
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/mi-land-boxplot.png)
 
+This initial plot is telling us that Republicans tend to have more land in the State of Michigan.
+<br/><br/> 
+<br/><br/> 
 *Nevada Education Barplot*
-
-We observe that that the CommercialData_Education level of the Nevada voter data that is most prominent is "Some College - Likely" for over 200,000 while "Vocational Degree - Extremely Likely" and "Less than HS Diploma - Extremely likely" has a count around 0.
-
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/edu-barplot.png)
 
+We observe that that the CommercialData_Education level of the Nevada voter data that is most prominent is "Some College - Likely" for over 200,000 while "Vocational Degree - Extremely Likely" and "Less than HS Diploma - Extremely likely" has a count around 0.
+<br/><br/> 
 From the model results, we saw that both the training and testing AUC scores consistently hovered around *72%* across all states while the training and test AUCpeaked at *73.37%* and *73.54%* respectively for the Arizona dataset. These AUC scores indicated the models' capability to effectively predict voter turnout based on the provided features and gives me a under understanding of how specific predictor variables  impacts voter behavior depending on the state as yielded through several pivotal findings. Certain aspects of socioeconomic status play larger roles than others depending on the state, while some of them are the same throughout. 
 
 ![img](https://github.com/bche3/Big-Data-Project-Voter-Turnout-Prediction/blob/main/img/auc-scores.png)
@@ -128,10 +125,10 @@ These scores reflect that our model performs relatively well with the input colu
 - Exploring the influence of income and wealth on voter turnout, the analysis delves into the `CommercialData_AreaMedianHousingValue` and `CommercialData_EstimatedHHIncomeAmount` variables. Remarkably, across all four states, the `CommercialData_AreaMedianHousingValue` coefficient consistently receives the lowest rank. This implies that the median housing value in a voter's area has minimal to no bearing on their decision to vote in the 2020 elections. Equally noteworthy is the finding that the `CommercialData_EstimatedHHIncomeAmount` coefficient ranks second lowest in all four states, suggesting that the estimated household income of voters similarly fails to impact voter turnout. In summary, the data underscores that political campaigns might be best served by not prioritizing voters' income and wealth as key factors for targeting strategies, given the possibility that these variables have limited to no effect on influencing voter behavior.
 
 In conclusion, our findings illuminate nuanced patterns within each swing state, emphasizing the multifaceted impact of socioeconomic status. The variance in the significance of property ownership's role across states underscores the necessity for tailored targeting strategies. The pronounced influence of education levels in Florida, coupled with the prominence of ethnic group coefficients in Arizona, Michigan, and Nevada, points towards region-specific campaigning strategies.
-Importantly, our analyses indicate that voter age, gender, and income/wealth factors hold minimal sway in the logistic models for each state. Armed with this comprehensive understanding of how socioeconomic factors interact with voter behavior, political campaigns are now equipped to craft highly effective strategies to engage and mobilize voters in these critical swing states. This project serves as a testament to the power of data science in informing strategic decision-making within the realm of political campaigns, with implications extending beyond this specific context.
+Importantly, our analyses indicate that voter age, gender, and income/wealth factors hold minimal sway in the logistic models for each state. Armed with this comprehensive understanding of how socioeconomic factors interact with voter behavior, political campaigns are now equipped to craft highly effective strategies to engage and mobilize voters in these critical swing states. 
 
 ## Future Work
-Outline potential future work that can be done to extend the project or improve its functionality. This will help others understand the scope of your project and identify areas where they can contribute.
+The insights derived from this project provide a strong foundation for potential future endeavors that could further enrich our understanding of voter behavior and enhance the efficacy of political campaign strategies. To extend this work, an avenue of exploration could involve delving into the temporal aspect, examining how these socioeconomic influences on voter turnout evolve across multiple election cycles. Incorporating sentiment analysis of social media data could provide additional context to voter preferences, contributing to a more holistic understanding. Furthermore, leveraging machine learning techniques beyond logistic regression, such as ensemble methods or deep learning, may unlock deeper insights and higher predictive accuracy. The inclusion of external data sources, like demographic shifts or policy changes, could offer a broader perspective on the variables' impact. Collaborative efforts to replicate this analysis on more recent election data or expand to different regions could contribute to a comprehensive dataset that supports robust generalizations. By embracing these directions, future researchers can build upon the groundwork laid here, refining models, expanding variables, and ultimately advancing the science of understanding voter behavior and its intricate connections to socioeconomic factors.
 
 ## Acknowledgments/References
 - Matthew Balderrama —  Arizona EDA & Model Interpretation/Conclusion
