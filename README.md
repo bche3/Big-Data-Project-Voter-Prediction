@@ -1,4 +1,4 @@
-# Big Data Project: Predicting Voter Turnout
+# Big Data Project: Logistic Regression Pipeline for Voter Turnout Prediction
 
 > Python (PySpark, Pandas, Numpy, Seaborn), GCP (Cloud Storage, BigQuery, DataProc), Logistic Regression
 
